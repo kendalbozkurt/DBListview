@@ -21,10 +21,10 @@ import java.io.ByteArrayOutputStream;
 import java.util.List;
 
 public class MainActivity extends Activity {
-  /*  private int[] textureArrayWin = {
+ /*  private int[] textureArrayWin = {
             R.mipmap.albania,R.mipmap.andorra,R.mipmap.armenia,R.mipmap.austria,R.mipmap.belarus,R.mipmap.belgium,
             R.mipmap.bosniaherzegovina,R.mipmap.bulgaria,R.mipmap.croatia,R.mipmap.cyprus,R.mipmap.czechrepublic,
-            R.mipmap.denmark,R.mipmap.england,R.mipmap.estonia,R.mipmap.finland,R.mipmap.france,
+            R.mipmap.denmark,R.mipmap.estonia,R.mipmap.finland,R.mipmap.france,
             R.mipmap.georgia,R.mipmap.germany,R.mipmap.greece,R.mipmap.hungary,R.mipmap.iceland,R.mipmap.ireland,
             R.mipmap.italy,R.mipmap.kazakhstan,R.mipmap.kosovo,R.mipmap.latvia,R.mipmap.liechtenshein,R.mipmap.lithuania,
             R.mipmap.luxembourg,R.mipmap.macedonia,R.mipmap.malta,R.mipmap.moldova,R.mipmap.monaco,R.mipmap.montenegro,
@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
             R.mipmap.vaticancity
     };
     private String[] countrynames={"Albania","Andorra","Armenia",
-           "Austria","Azerbaijan","Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria","Croatia","Cyprus",
+           "Austria","Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria","Croatia","Cyprus",
             "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland",
             "Italy", "Kazakhstan","Kosovo", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Malta", "Moldova",
             "Monaco", "Montenegro", "Netherlands", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino",
@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
 
         final ListView listemiz = (ListView) findViewById(R.id.listView);
         CDataBase cDB = new CDataBase(getApplicationContext());
-       /* for(int i=0;i<textureArrayWin.length;i++)
+      /*  for(int i=0;i<textureArrayWin.length;i++)
         {
             Bitmap image = BitmapFactory.decodeResource(getResources(), textureArrayWin[i]);
 
